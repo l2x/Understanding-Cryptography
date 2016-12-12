@@ -5,9 +5,9 @@
 * [前言](README.md)
 
 ## 对称加密
-* [一次一密](chapter-1/一次一密.md)
-* [RC4](chapter-1/rc4.md)
-* [DES](chapter-1/des.md)
+* [一次一密](docs/chapter-1/一次一密.md)
+* [RC4](docs/chapter-1/rc4.md)
+* [DES](docs/chapter-1/des.md)
 * AES
 * 对比
 
