@@ -9,7 +9,6 @@
 * [RC4](docs/chapter-1/rc4.md)
 * [DES](docs/chapter-1/des.md)
 * AES
-* 对比
 
 ## 分组密码模式
 * CBC
