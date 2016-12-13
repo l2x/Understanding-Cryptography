@@ -1,8 +1,8 @@
 # Summary
 
 ## 开始
-* [目录](SUMMARY.md)
 * [前言](README.md)
+* [目录](SUMMARY.md)
 
 ## 对称加密
 * [一次一密](docs/chapter-1/一次一密.md)
