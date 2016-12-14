@@ -73,7 +73,7 @@ DES是一种分组加密算法：将明文一组一组的通过变换成等长�
 
 **P置换**
 
-!<img src="/assets/aes-p.png" width="150" />
+<img src="/assets/aes-p.png" width="150" />
 
 P置换将32位的半块数据重新排列。
 
