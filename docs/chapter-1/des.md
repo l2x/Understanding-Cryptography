@@ -10,7 +10,7 @@ DES是一种分组加密算法：将明文一组一组的通过变换成等长�
 
 ### Feistel结构
 
-![](/assets/feistel-round.png)
+<img src="/assets/feistel-round.png" width="100" />
 
 1. 明文数据（64bit）被分成左右两部分（各32bit）。
 2. 将输入的右侧使用轮函数处理。
