@@ -27,10 +27,24 @@
 
 **SubBytes**
 
-从一张拥有256个值的替换表(S-Box)中找出对应的值替换。S-Box是固定的，查找公式也是固定。具体可参见[Rijndael S-box](https://en.wikipedia.org/wiki/Rijndael_S-box)。
+从一张拥有256个值的替换表(S-Box)中找出对应的值替换。S-Box是固定的，查找公式也是固定。具体可参见[Rijndael S-box](https://en.wikipedia.org/wiki/Rijndael_S-box)。用此步骤混淆了输入内容。
 
+**ShiftRows**
 
+上一步处理后将16个字节分为4组，每组4字节。以字节位单位进行乱序处理，这种打乱是有规律的。如上图中输入第一组第一个字节移动到输出第一组第一个字节，输入第一组第二个字节移动到输入第二组第二个字节，输入第一组第三个字节移动到输出第三组第三个字节。
 
+**MixColumns**
 
+可以理解为采用固定的公式，将每组4个字节做运算得出另外4个字节。具体可参见[Rijndael mix columns](https://en.wikipedia.org/wiki/Rijndael_mix_columns)。
+
+**AddRoundKey**
+
+与轮密钥做异或。
+
+**轮密钥**
+
+轮密钥是通过密钥编排得到：将原始输入的密钥（128位、192位、256位）作为输入，得到子密钥。
+
+<img src="/assets/aes-128-key-schedule.png" width="600">
 
 
