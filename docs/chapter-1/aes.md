@@ -18,8 +18,19 @@
 
 <img src="/assets/aes-round.png" width="400">
 
-1. SubBytes：通过一个非线性的替换函数，用查找表的方式把每个字节替换成对应的字节。
-2. ShiftRows：将矩阵中的每个横列进行循环式移位。
-3. MixColumns：
-4. AddRoundKey
+1. **SubBytes**：通过一个非线性的替换函数，用查找表(S-Box)的方式把每个字节替换成对应的字节。
+2. **ShiftRows**：将矩阵中的每个横列进行循环式移位。
+3. **MixColumns**：每一列的四个字节通过线性变换互相结合得到新的4字节值.
+4. **AddRoundKey**：将输入与**轮密钥**进行XOR。
+
+下面具体分析每一步：
+
+**SubBytes**
+
+从一张拥有256个值的替换表(S-Box)中找出对应的值替换。S-Box是固定的，查找公式也是固定。具体可参见[Rijndael S-box](https://en.wikipedia.org/wiki/Rijndael_S-box)。
+
+
+
+
+
 
