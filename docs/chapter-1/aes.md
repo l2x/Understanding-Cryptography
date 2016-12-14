@@ -16,7 +16,7 @@
 
 ## 算法
 
-<img src="/assets/aes-round.png" width="400">
+<img src="/assets/aes-round.png" width="600">
 
 1. **SubBytes**：通过一个非线性的替换函数，用查找表(S-Box)的方式把每个字节替换成对应的字节。
 2. **ShiftRows**：将矩阵中的每个横列进行循环式移位。
