@@ -10,7 +10,7 @@ DES是一种分组加密算法：将明文一组一组的通过变换成等长�
 
 ### Feistel结构
 
-<img src="/assets/feistel-round.png" width="100" />
+<img src="/assets/feistel-round.png" width="350" />
 
 1. 明文数据（64bit）被分成左右两部分（各32bit）。
 2. 将输入的右侧使用轮函数处理。
@@ -18,13 +18,13 @@ DES是一种分组加密算法：将明文一组一组的通过变换成等长�
 
 这个过程被称为一轮。一轮结束后交换左右数据，进行下一轮计算。DES会进行16轮计算（最后一轮不交换左右数据）。这种左右交叉处理的结构成为feistel结构。feistel结构也被应用到其它许多加密算法中。
 
-![](/assets/250px-DES-main-network.png)
+<img src="/assets/250px-DES-main-network.png" width="180" />
 
 实际上首尾各有一次置换，称为IP与FP（或称\`IP^-1\`，FP为IP的反函数（即IP“撤销”FP的操作，反之亦然）。IP和FP几乎没有密码学上的重要性，为了在1970年代中期的硬件上简化输入输出数据库的过程而被显式的包括在标准中。更多置换的细节见[DES补充材料](https://zh.wikipedia.org/wiki/DES%E8%A1%A5%E5%85%85%E6%9D%90%E6%96%99)。
 
 ### F函数
 
-![](/assets/500px-DES-f-function.png)
+<img src="/assets/500px-DES-f-function.png" width="300" />
 
 上图显示了F函数的步骤，主要包含4个步骤：
 
@@ -41,25 +41,25 @@ DES是一种分组加密算法：将明文一组一组的通过变换成等长�
 
 按照固定的方式，将32bit重新排列成48bit。某些位在输出中被用到了不止一次，例如输入的第5位出现在输出的第6和8位。
 
-![](/assets/e-function.png)
+<img src="/assets/e-function.png" width="150" />
 
 **子密钥**
 
 子密钥生成方法被称为密钥调度。首先通过**选择置换1**（PC-1）从64位输入密钥中选出56位的密钥，剩下的8位要么直接丢弃，要么作为奇偶校验位。然后，56位分成两个28位的半密钥；每个半密钥接下来都被分别处理。在接下来的回次中，两个半密钥都被**左移**1或2位（由回次数决定），然后通过**选择置换2**（PC-2）产生48位的子密钥（每个半密钥24位）。
 
-![](/assets/DES-key-schedule.png)
+<img src="/assets/DES-key-schedule.png" width="250" />
 
 > **选择置换1（PC-1）**
 >
-> ![](/assets/pc-1.png)
+> <img src="/assets/pc-1.png" width="150" />
 >
 > **选择置换2（PC-2）**
 >
-> ![](/assets/pc-2.png)
+> <img src="/assets/pc-2.png" width="150" />
 >
 > **左移**
 >
-> ![](/assets/bo.png)
+> <img src="/assets/bo.png" width="100" />
 
 **S-box**
 
@@ -73,7 +73,7 @@ DES是一种分组加密算法：将明文一组一组的通过变换成等长�
 
 **P置换**
 
-![](/assets/aes-p.png)
+!<img src="/assets/aes-p.png" width="150" />
 
 P置换将32位的半块数据重新排列。
 
