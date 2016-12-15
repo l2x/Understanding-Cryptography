@@ -11,7 +11,8 @@
 * [AES](docs/chapter-1/aes.md)
 
 ## 分组密码模式
-* CBC
+* [分组密码模式](docs/chapter-2/分组密码模式.md)
+* [CBC](cbc.md)
 * ECB
 * CFB
 * OFB
