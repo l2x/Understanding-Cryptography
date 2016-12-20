@@ -12,8 +12,8 @@
 
 ## 分组密码模式
 * [分组密码模式](docs/chapter-2/分组密码模式.md)
+* [ECB](ecb.md)
 * [CBC](cbc.md)
-* ECB
 * CFB
 * OFB
 * CTR
