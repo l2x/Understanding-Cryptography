@@ -16,7 +16,7 @@
 * [CBC](docs/chapter-2/cbc.md)
 * [CFB](docs/chapter-2/cfb.md)
 * [OFB](docs/chapter-2/ofb.md)
-* CTR
+* [CTR](ctr.md)
 
 ## 公钥密码
 * RSA
