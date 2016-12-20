@@ -17,6 +17,7 @@
 * [CFB](docs/chapter-2/cfb.md)
 * [OFB](docs/chapter-2/ofb.md)
 * [CTR](ctr.md)
+* [应该使用哪种模式](docs/chapter-2/应该使用哪种模式.md)
 
 ## 公钥密码
 * [RSA](docs/chapter-3/rsa.md)
