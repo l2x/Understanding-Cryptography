@@ -14,8 +14,8 @@
 * [分组密码模式](docs/chapter-2/分组密码模式.md)
 * [ECB](docs/chapter-2/ecb.md)
 * [CBC](docs/chapter-2/cbc.md)
-* CFB
-* OFB
+* [CFB](docs/chapter-2/cfb.md)
+* [OFB](docs/chapter-2/ofb.md)
 * CTR
 
 ## 公钥密码
