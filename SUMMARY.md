@@ -19,7 +19,7 @@
 * [CTR](ctr.md)
 
 ## 公钥密码
-* RSA
+* [RSA](docs/chapter-3/rsa.md)
 * Diffie-Hellman密钥交换
 * 椭圆曲线密码
 
