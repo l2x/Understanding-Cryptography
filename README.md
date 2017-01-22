@@ -1,4 +1,4 @@
 # 理解加密算法
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+本书源于笔者做的一次算法调研，书中大部分内容来源与互联网。经过整理后尽量用简单的语言描绘加密算法基本原理和流程，可以通过此书对主流加解密算法有基本了解。书中并不会讲解加密算法公式推导，对于了解加密算法"为什么" 没有帮助。
 
