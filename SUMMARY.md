@@ -26,7 +26,7 @@
 * [安全性](docs/chapter-3/安全性.md)
 
 ## 单向散列函数
-* MD5
+* [MD5](docs/chapter-4/md5.md)
 * SHA-1
 
 ## 消息认证码
