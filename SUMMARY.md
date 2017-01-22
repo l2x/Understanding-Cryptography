@@ -17,12 +17,13 @@
 * [CFB](docs/chapter-2/cfb.md)
 * [OFB](docs/chapter-2/ofb.md)
 * [CTR](docs/chapter-2/ctr.md)
-* [应该使用哪种模式](docs/chapter-2/应该使用哪种模式.md)
+* [使用哪种模式](docs/chapter-2/应该使用哪种模式.md)
 
 ## 公钥密码
 * [RSA](docs/chapter-3/rsa.md)
 * [Diffie-Hellman密钥交换](docs/chapter-3/diffie-hellman密钥交换.md)
 * [椭圆曲线密码](docs/chapter-3/椭圆曲线密码.md)
+* [安全性](docs/chapter-3/安全性.md)
 
 ## 单向散列函数
 * MD5
