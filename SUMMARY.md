@@ -21,7 +21,7 @@
 
 ## 公钥密码
 * [RSA](docs/chapter-3/rsa.md)
-* Diffie-Hellman密钥交换
+* [Diffie-Hellman密钥交换](docs/chapter-3/diffie-hellman密钥交换.md)
 * 椭圆曲线密码
 
 ## 单向散列函数
